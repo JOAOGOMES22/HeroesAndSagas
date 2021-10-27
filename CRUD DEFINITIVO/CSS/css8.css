@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap');
+
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: rgb(3, 34, 3);
+
+}
+
+.header{
+    height: 100px; 
+    background-color: rgb(57, 92, 8);
+}
+
+.CT {
+    margin:center;
+    width: 15%;
+    border: 0px solid black;
+    padding: 27px;
+}
+
+.logo{
+    position: absolute;
+    right: 70px;
+}
+
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+    position: absolute;
+}
+
+
+.dp-menu ul li {
+    display: inline;   
+}
+
+.dp-menu ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background .3s;
+
+}
+
+.dp-menu ul li a:hover{
+    background-color: rgba(71, 122, 13, 0.89);  
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;  
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+    
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+#login{
+    padding: 100px 100px;
+    height: 379px ;
+    color: cornsilk;
+}
+
+.bd1{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(245, 240, 221);
+    font-family: 'Roboto', sans-serif;
+}
+
+.bd2{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(245, 240, 221);
+    font-family: 'Roboto', sans-serif;
+}
+
+.bth{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(72, 122, 13);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.btc{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(72, 122, 13);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.561);
+}
+
+.jogo{
+    height: 1800px;
+    background-color: cornsilk;
+    background-image:radial-gradient(rgba(148, 177, 144, 0.664),rgba(80, 128, 74, 0.657));
+    margin-top: 76px;
+}
+
+.serie{
+    height: 1800px;
+    background-color: cornsilk;
+    background-image:radial-gradient(rgba(138, 170, 134, 0.664),rgba(80, 128, 74, 0.657));
+    margin-top: 76px;
+}
+
+.filme{
+    height: 1920px;
+    background-color: cornsilk;
+    background-image:radial-gradient(rgba(138, 170, 134, 0.664),rgba(80, 128, 74, 0.657));
+    margin-top: 76px;
+}
+
+.RDP{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.JG{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(17, 158, 17);
+    margin-bottom: -70px;
+}
+
+.SR{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(17, 158, 17);
+    margin-bottom: -70px;
+}
+
+.MV{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(17, 158, 17);
+    margin-bottom: -70px;
+}
+
+.alert{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/*Resume jogos*/
+
+.TXTJG1 p{
+    position:relative;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+}
+
+.TXTJG2 p{
+    position:relative;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+    
+}
+
+.TXTJG3 p{
+    position:relative;
+    top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.TXTJG4 p{
+    position:relative;
+    top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+
+
+.IMGJ1 {
+    position: relative;
+    border-radius: 10px;
+}
+  
+.IMGJ2 {
+    position: relative;
+    border-radius: 10px;
+}
+
+.IMGJ3 {
+    position: relative;
+    border-radius: 10px;
+}
+
+.IMGJ4 {
+    position: relative;
+    border-radius: 10px;
+}
+ 
+/*Resume serie*/
+.TXTSR1 p{
+    position:relative;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+    
+}
+
+.TXTSR2 p{
+    position:relative;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.TXTSR3 p{
+    position:relative;
+    top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.TXTSR4 p{
+    position:relative;
+    top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.IMGSR1 {
+    position: relative;
+    border-radius: 10px;
+}
+  
+.IMGSR2 {
+
+    position: relative;
+    border-radius: 10px;
+}
+
+.IMGSR3 {
+    position: relative;
+    border-radius: 10px;
+}
+  
+.IMGSR4 {
+
+    position: relative;
+    border-radius: 10px;
+}
+
+/*Resume filmes*/
+.TXTMV1 p{
+    position:relative;
+    top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.TXTMV2 p{
+    position:relative;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.TXTMV3 p{
+    position:relative;
+    top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.TXTMV4 p{
+    position:relative;
+    top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    text-align: center;
+    background-color: rgba(3, 34, 3, 0.411);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(51, 105, 51, 0.657);
+    font-size: 21px;
+    
+}
+
+.IMGMV1 {
+    position: relative;
+    border-radius: 10px;
+}
+  
+.IMGMV2 {
+    position: relative;
+    border-radius: 10px;
+}
+
+.IMGMV3 {
+    position: relative;
+    border-radius: 10px;
+}
+  
+.IMGMV4 {
+    position: relative;
+    border-radius: 10px;
+}
+
+.cadastro p{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 45px;
+}

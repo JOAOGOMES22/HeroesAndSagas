@@ -1,0 +1,38 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: Arial, Helvetica; font-size: 16px;
+    background-color: rgb(28, 1, 117);
+
+}
+header{
+    height: 80px; background-color: orangered;
+}
+footer{
+    height: 50px; background-color: dimgrey;
+    color: white; text-align: center;
+}
+#menu{
+    float: right; padding: 25px 0;
+}
+#menu a{
+    text-decoration: none; padding: 40px 40px;
+    color: black;
+    font-size: 22px;
+}
+#menu a:hover{
+    background-color: rgb(28, 1, 117);
+}
+#login{
+    padding: 100px 100px;
+    height: 379px ;
+}
+.jogo{
+    height: 521px;
+    background-color: rgb(212, 207, 228);
+    margin-top: 76px;
+}
+
+
+
